@@ -82,30 +82,14 @@ footer {
     
   }
 
-  .righted {
-    position: absolute;
-    top: 9%;
-    left: 72%;
-    transform: translate(-50%, -50%);
-    font-size: xx-large;
-
+  .heros{
+    padding-left: 30%;
+    color:blue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
-  .centered {
-    position: absolute;
-    top: 9%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: xx-large;
-
+  .villans{
+    padding-left: 505%;
+    color:red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-
-  .lefted {
-    position: absolute;
-    top: 9%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    font-size: xx-large;
-
-  }
-

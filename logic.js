@@ -24,6 +24,12 @@ function mHero(){
     .catch(err => console.log("Error :"+err));
 }
 
+function DCHYear(){
+    fetch("./DC.json")
+    .then(response => response.json())
+    .then(chars => loadChars(chars, 0, 1))
+    .catch(err => console.log("Error :"+err));
+}
 
 
 //showCardsSortedByPriceLowHigh();
@@ -116,6 +122,7 @@ function loadChars(chars, n, s){
          <div class="card-body">
          <p class="card-text"> <strong>${char.name}</strong>, ${char.releaseYear}</p>
          <p>${char.description}</p>
+         <button><ahref=${char.page}>More </button>
          </div>
          </div>
          `;
