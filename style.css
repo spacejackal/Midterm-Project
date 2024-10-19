@@ -73,3 +73,39 @@ footer {
     display: block !important;
   }
 
+  .merch{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    text-align: center;
+    text-shadow: #000;
+    padding-top: 100;
+    
+  }
+
+  .righted {
+    position: absolute;
+    top: 9%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+
+  }
+
+  .centered {
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+
+  }
+
+  .lefted {
+    position: absolute;
+    top: 9%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+
+  }
+
