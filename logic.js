@@ -24,18 +24,6 @@ function mHero(){
     .catch(err => console.log("Error :"+err));
 }
 
-function DCHYear(){
-    fetch("./DC.json")
-    .then(response => response.json())
-    .then(chars => loadChars(chars, 0, 1))
-    .catch(err => console.log("Error :"+err));
-}
-
-
-var DCsortLowHighVill = document.getElementById("DCsortLHV");
-
-
-
 function DCLHH(){
     fetch("./DC.json")
     .then(response => response.json())
@@ -46,9 +34,26 @@ function DCLHH(){
 function DCLHV(){
     fetch("./DC.json")
     .then(response => response.json())
-    .then(chars => loadMovies(chars,1, 1))
+    .then(chars => loadChars(chars,1, 1))
     .catch(err => console.log("Error :"+err));
 }
+
+function MLHH(){
+    fetch("./Marvel.json")
+    .then(response => response.json())
+    .then(chars => loadChars(chars,0, 1))
+    .catch(err => console.log("Error :"+err));
+}
+
+function MLHV(){
+    fetch("./Marvel.json")
+    .then(response => response.json())
+    .then(chars => loadChars(chars,1, 1))
+    .catch(err => console.log("Error :"+err));
+}
+
+
+
 
 function showCardsContainingDescriptionA(){
     const inputField = document.getElementById('inputField');
@@ -131,5 +136,5 @@ function loadChars(chars, n, s){
  
  }
 
-DCsortLowHighVill.addEventListener("click", DCLHV());
+
 
