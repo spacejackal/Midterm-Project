@@ -32,19 +32,21 @@ function DCHYear(){
 }
 
 
-//showCardsSortedByPriceLowHigh();
+var DCsortLowHighVill = document.getElementById("DCsortLHV");
 
-function showCardsSortedByPriceLowHigh(){
-    fetch("./MoviesFromJSON.json")
+
+
+function DCLHH(){
+    fetch("./DC.json")
     .then(response => response.json())
-    .then(myMovies => loadMovies(myMovies, 1))
+    .then(chars => loadChars(chars,0,1))
     .catch(err => console.log("Error :"+err));
 }
 
-function showCardsSortedByPriceHighLow(){
-    fetch("./MoviesFromJSON.json")
+function DCLHV(){
+    fetch("./DC.json")
     .then(response => response.json())
-    .then(myMovies => loadMovies(myMovies, 2))
+    .then(chars => loadMovies(chars,1, 1))
     .catch(err => console.log("Error :"+err));
 }
 
@@ -79,13 +81,9 @@ function loadChars(chars, n, s){
      if(s === 1){
          sortedChars = arraychars.sort((p1,p2) => (p1.releaseYear>p2.releaseYear) ? 1 : (p1.releaseYear<p2.releaseYear) ? -1 : 0)
      }
- 
- 
      if(n=== 2){
          sortedChars = arraychars.sort((p1,p2) => (p1.releaseYear<p2.releaseYear) ? 1 : (p1.releaseYear>p2.releaseYear) ? -1 : 0)
- 
      }
- 
      if(n === 3){
          const inputDescription = document.getElementById("descriptionInput").value;
          document.getElementById('inputField').style.display = 'none';
@@ -95,7 +93,6 @@ function loadChars(chars, n, s){
              sortedChars.push(char);
          }
          }
-         
      }else{
         sortedChars = arraychars;
      }
@@ -133,3 +130,6 @@ function loadChars(chars, n, s){
  
  
  }
+
+DCsortLowHighVill.addEventListener("click", DCLHV());
+
