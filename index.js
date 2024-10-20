@@ -88,22 +88,19 @@ function showCardsContainingDescriptionA(){
     const inputField = document.getElementById('inputField');
     inputField.style.display = 'block'; // Show the input field
 }
-function showCardsContainingDescriptionB(){
-    fetch("./MoviesFromJSON.json")
-    .then(response => response.json())
-    .then(myMovies => loadMovies(myMovies, 3))
-    .catch(err => console.log("Error :"+err));
-}
 
 
 function loadChars(chars, n, s){
      let arraychars = [];
+     let faction;
     if( n === 0){
+        faction = "heros";
         for(let i = 0; i< chars.heros.length; i++){
             arraychars.push(chars.heros[i]);
         }
     }
     if( n === 1){
+        faction = "villans"
         for(let i = 0; i< chars.villans.length; i++){
             arraychars.push(chars.villans[i]);
         }
@@ -158,7 +155,7 @@ function loadChars(chars, n, s){
              <div class="collapse text-bg-dark" id="more${char.name}">
           <div class="container">
               <p>${char.description}</p>
-              <a href="${char.page}">Full page
+              <a href="./${faction}/${char.page}">Full page
               
           </div>
         </div>
