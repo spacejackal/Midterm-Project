@@ -120,7 +120,7 @@ function loadChars(chars, n, s){
          document.getElementById('inputField').style.display = 'none';
  
          for (let char of arraychars){
-             if (char.description.includes(inputDescription)){
+             if (char.description.includes(inputDescription) || (char.name.includes(inputDescription))){
              sortedChars.push(char);
          }
          }
