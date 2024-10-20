@@ -123,10 +123,26 @@ function loadChars(chars, n, s){
          <img src=${char.url} class="card-img-top" alt="..."></img>
          <div class="card-body">
          <p class="card-text"> <strong>${char.name}</strong>, ${char.releaseYear}</p>
-         <p>${char.description}</p>
-         <button><ahref=${char.page}>More </button>
          </div>
          </div>
+
+             <div class="collapse text-bg-dark" id="more${char.name}">
+          <div class="container">
+              <p>${char.description}</p>
+              <a href="${char.page}">Full page
+              
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+          <div class="container">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#more${char.name}" aria-controls="more${char.name}" aria-expanded="false" aria-label="Toggle navigation">
+              More
+            </button>
+          </div>
+        </div>
+
          `;
          CardChar.appendChild(AddCardChar);
          

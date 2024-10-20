@@ -1,29 +1,33 @@
 {
     "heros": [
       {
-          "name": "Batman",
-          "release-year": 1800,
+          "name": "Baatman",
+          "releaseYear": 1800,
           "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
-          "description":"intrepid action drama suspense The movis is one of the best"
+          "description":"intrepid action drama suspense The movis is one of the best",
+          "page": "./batman.html"
 
       },
       {
-         "name": "Batman",
-          "release-year": 1800,
+         "name": "Battman",
+          "releaseYear": 1800,
           "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
-          "description":"intrepid action drama suspense The movis is one of the best"
+          "description":"intrepid action drama suspense The movis is one of the best",
+          "page": "./batman.html"
       },
       {
-         "name": "Batman",
-          "release-year": 1800,
+         "name": "Batmvan",
+          "releaseYear": 1800,
           "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
-          "description":"intrepid action drama suspense The movis is one of the best"
+          "description":"intrepid action drama suspense The movis is one of the best",
+          "page": "./batman.html"
       },
       {
-          "name": "Batman",
-          "release-year": 1800,
+          "name": "Batmabn",
+          "releaseYear": 1800,
           "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
-          "description":"intrepid action drama suspense The movis is one of the best"
+          "description":"intrepid action drama suspense The movis is one of the best",
+          "page": "./batman.html"
 
     }
   ],
