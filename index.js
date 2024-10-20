@@ -100,7 +100,7 @@ function loadChars(chars, n, s){
         }
     }
     if( n === 1){
-        faction = "villans"
+        faction = "villans";
         for(let i = 0; i< chars.villans.length; i++){
             arraychars.push(chars.villans[i]);
         }
