@@ -1,5 +1,5 @@
 function DCVill(){
-    fetch("./DC.json")
+    fetch("../DC.json")
     .then(response => response.json())
     .then(chars => loadChars(chars, 1, 0))
     .catch(err => console.log("Error :"+err));
@@ -12,41 +12,41 @@ function DCHero(){
 }
 
 function mVill(){
-    fetch("./Marvel.json")
+    fetch("../Marvel.json")
     .then(response => response.json())
     .then(chars => loadChars(chars, 1, 0))
     .catch(err => console.log("Error :"+err));
 }
 function mHero(){
-    fetch("./Marvel.json")
+    fetch("../Marvel.json")
     .then(response => response.json())
     .then(chars => loadChars(chars, 0, 0))
     .catch(err => console.log("Error :"+err));
 }
 
 function DCLHH(){
-    fetch("./DC.json")
+    fetch("../DC.json")
     .then(response => response.json())
     .then(chars => loadChars(chars,0,1))
     .catch(err => console.log("Error :"+err));
 }
 
 function DCLHV(){
-    fetch("./DC.json")
+    fetch("../DC.json")
     .then(response => response.json())
     .then(chars => loadChars(chars,1, 1))
     .catch(err => console.log("Error :"+err));
 }
 
 function MLHH(){
-    fetch("./Marvel.json")
+    fetch("../Marvel.json")
     .then(response => response.json())
     .then(chars => loadChars(chars,0, 1))
     .catch(err => console.log("Error :"+err));
 }
 
 function MLHV(){
-    fetch("./Marvel.json")
+    fetch("../Marvel.json")
     .then(response => response.json())
     .then(chars => loadChars(chars,1, 1))
     .catch(err => console.log("Error :"+err));
