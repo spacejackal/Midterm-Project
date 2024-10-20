@@ -83,9 +83,9 @@ function MHLV(){
 
 
 function showCardsContainingDescriptionB(){
-    fetch("./MoviesFromJSON.json")
+    fetch("./Marvel.json")
     .then(response => response.json())
-    .then(myMovies => loadMovies(myMovies, 3))
+    .then(chars => loadMovies(chars,0,3))
     .catch(err => console.log("Error :"+err));
 }
 
