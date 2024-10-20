@@ -5,7 +5,7 @@ function DCVill(){
     .catch(err => console.log("Error :"+err));
 }
 function DCHero(){
-    fetch("./DC.json")
+    fetch("../DC.json")
     .then(response => response.json())
     .then(chars => loadChars(chars, 0, 0))
     .catch(err => console.log("Error :"+err));
