@@ -82,7 +82,12 @@ function MHLV(){
 
 
 
-
+function showCardsContainingDescriptionB(){
+    fetch("./MoviesFromJSON.json")
+    .then(response => response.json())
+    .then(myMovies => loadMovies(myMovies, 3))
+    .catch(err => console.log("Error :"+err));
+}
 
 function showCardsContainingDescriptionA(){
     const inputField = document.getElementById('inputField');
