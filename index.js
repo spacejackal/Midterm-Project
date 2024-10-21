@@ -160,7 +160,7 @@ function loadChars(chars, n, s){
              <div class="collapse text-bg-dark" id="more${char.id}">
           <div class="container">
               <p>${char.description}</p>
-              <a href="./${faction}/${char.page}">Full page
+              <a href="#">Full page Coming soon.
               
           </div>
         </div>
