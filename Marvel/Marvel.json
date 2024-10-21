@@ -1,74 +1,70 @@
 {
-    "heros": [
+  "heros": [
       {   
-          "id":1,
+          "id": 1,
           "name": "Spiderman",
           "releaseYear": 1962,
           "url": "spiderman.webp",
-          "description":"intrepid action drama suspense The movis is one of the best",
+          "description": "A young man bitten by a radioactive spider, Spider-Man gains superhuman abilities and uses them to protect New York City. His motto is 'With great power comes great responsibility.'",
           "page": "./batman.html"
-          
       },
       { 
-          "id":2,
-         "name": "Iron Man",
+          "id": 2,
+          "name": "Iron Man",
           "releaseYear": 1963,
           "url": "ironman.webp",
-          "description":"intrepid action drama suspense The movis is one of the best",
+          "description": "Genius billionaire Tony Stark builds a high-tech suit of armor to escape captivity and later uses it to protect the world. He embodies innovation and heroism.",
           "page": "./batman.html"
       },
       {
-        "id":3,
-         "name": "Thor",
+          "id": 3,
+          "name": "Thor",
           "releaseYear": 1962,
           "url": "thor.jpg",
-          "description":"intrepid action drama suspense The movis is one of the best",
+          "description": "The Norse God of Thunder, Thor wields the enchanted hammer Mjölnir and possesses immense strength. He defends both Asgard and Earth from powerful threats.",
           "page": "./batman.html"
       },
       { 
-          "id":4,
+          "id": 4,
           "name": "Captain America",
           "releaseYear": 1941,
           "url": "captainamerica.webp",
-          "description":"intrepid action drama suspense The movis is one of the best",
+          "description": "A super-soldier from World War II, Captain America fights for justice and freedom. With his iconic shield, he leads with honor and courage.",
           "page": "./batman.html"
-
-    }
+      }
   ],
-    "villans": [
+  "villans": [
       { 
-          "id":1,
+          "id": 1,
           "name": "Thanos",
           "releaseYear": 1973,
           "url": "thanos.webp",
-          "description":"intrepid action drama suspense The movis is one of the best",
+          "description": "A powerful cosmic warlord, Thanos seeks the Infinity Stones to gain ultimate power. His goal is to eliminate half of all life in the universe to bring balance.",
           "page": "./batman.html"
-      
       },
       {
-        "id":2,
-         "name": "Norman Osborn",
+          "id": 2,
+          "name": "Norman Osborn",
           "releaseYear": 1964,
           "url": "Norman_Osborn.jpg",
-          "description":"intrepid action drama suspense The movis is one of the best",
+          "description": "The wealthy industrialist and father of Harry Osborn, Norman becomes the Green Goblin, a dangerous adversary to Spider-Man with a twisted agenda.",
           "page": "./batman.html"
       },
       {
-        "id":3,
-         "name": "Doctor Doom",
+          "id": 3,
+          "name": "Doctor Doom",
           "releaseYear": 1800,
           "url": "drdoom.avif",
-          "description":"intrepid action drama suspense The movis is one of the best",
+          "description": "Victor Von Doom, the ruler of Latveria, is a brilliant inventor and sorcerer. He seeks power to reshape the world according to his vision, often clashing with the Fantastic Four.",
           "page": "./batman.html"
       },
       {
-          "id":4,
+          "id": 4,
           "name": "Red Skull",
           "releaseYear": 1941,
           "url": "4726137-02.jpg",
-          "description":"intrepid action drama suspense The movis is one of the best",
+          "description": "The archenemy of Captain America, Red Skull is a Nazi officer who wields the Tesseract's power for his own malevolent goals, embodying pure evil.",
           "page": "./batman.html"
-      
-    }
+      }
   ]
 }

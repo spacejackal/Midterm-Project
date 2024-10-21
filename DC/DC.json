@@ -1,77 +1,70 @@
 {
     "heros": [
         {
-            "id":1,
+            "id": 1,
             "name": "Batman",
             "releaseYear": 1939,
             "url": "batman.webp",
-            "description":"intrepid action drama suspense The movis is one of the best",
+            "description": "The Dark Knight of Gotham, Batman fights crime using his intellect, detective skills, and advanced technology. A symbol of justice, he battles his inner demons while protecting the city from various threats.",
             "page": "./batman.html"
-  
         },
         {
-            "id":2,
-           "name": "Superman",
+            "id": 2,
+            "name": "Superman",
             "releaseYear": 1938,
             "url": "superman.webp",
-            "description":"intrepid action drama suspense The movis is one of the best",
+            "description": "An alien from Krypton, Superman possesses incredible strength, speed, and the ability to fly. As a champion of truth and justice, he fights for peace and protects the world from powerful foes.",
             "page": "./Main.html"
         },
         {
-            "id":3,
-           "name": "Flash",
+            "id": 3,
+            "name": "Flash",
             "releaseYear": 1940,
             "url": "flash.webp",
-            "description":"intrepid action drama suspense The movis is one of the best",
+            "description": "Known for his super-speed, Flash can move, think, and react at light speed. He uses his abilities to protect Central City and its inhabitants from threats, proving that every second counts.",
             "page": "./batman.html"
         },
         {
-            "id":4,
+            "id": 4,
             "name": "Green Lantern",
             "releaseYear": 1940,
             "url": "greenlantern.webp",
-            "description":"intrepid action drama suspense The movis is one of the best",
+            "description": "Armed with a powerful ring that grants him the ability to create anything he can imagine, Green Lantern defends the universe as a member of the Green Lantern Corps, upholding intergalactic peace and justice.",
             "page": "./Main.html"
-  
-      }
+        }
     ],
-
-
     "villans": [
         {
-            "id":1,
+            "id": 1,
             "name": "Joker",
             "releaseYear": 1940,
             "url": "joker.jpg",
-            "description":"intrepid action drama suspense The movis is one of the best",
+            "description": "The Clown Prince of Crime, Joker is Batman's arch-nemesis. With a twisted sense of humor and a penchant for chaos, he delights in sowing discord and testing the limits of Batman's morality.",
             "page": "./Main.html"
-  
         },
         {
-            "id":2,
-           "name": "Penguin",
+            "id": 2,
+            "name": "Penguin",
             "releaseYear": 1941,
             "url": "Penguin_new_52.webp",
-            "description":"intrepid action drama suspense The movis is one of the best",
+            "description": "A cunning and sophisticated crime lord, Penguin uses his charm and intellect to control Gotham’s underworld. He’s known for his love of birds and elaborate schemes to undermine Batman.",
             "page": "./batman.html"
         },
         {
-            "id":3,
-           "name": "Lex Luthor",
+            "id": 3,
+            "name": "Lex Luthor",
             "releaseYear": 1940,
             "url": "Luthor12.webp",
-            "description":"intrepid action drama suspense The movis is one of the best",
+            "description": "A brilliant businessman and scientist, Lex Luthor sees Superman as a threat to humanity. With his genius intellect and vast resources, he plots to defeat the Man of Steel and prove his superiority.",
             "page": "./batman.html"
         },
         {
-            "id":4,
+            "id": 4,
             "name": "Harley Quinn",
             "releaseYear": 1992,
             "url": "harleyquinn.webp",
-            "description":"intrepid action drama suspense The movis is one of the best",
+            "description": "Once a psychiatrist, Harley Quinn fell in love with the Joker and became his mischievous partner in crime. With her playful yet dangerous nature, she adds chaos to Gotham's criminal landscape.",
             "page": "./batman.html"
-  
-      }
+        }
     ]
-
 }
