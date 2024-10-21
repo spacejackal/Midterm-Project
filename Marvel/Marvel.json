@@ -1,63 +1,71 @@
 {
     "heros": [
-      {
-          "name": "Baatman",
-          "releaseYear": 1800,
-          "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+      {   
+          "id":1,
+          "name": "Spiderman",
+          "releaseYear": 1962,
+          "url": "spiderman.webp",
           "description":"intrepid action drama suspense The movis is one of the best",
           "page": "./batman.html"
-
+          
       },
-      {
-         "name": "Battman",
-          "releaseYear": 1800,
-          "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
-          "description":"intrepid action drama suspense The movis is one of the best",
-          "page": "./batman.html"
-      },
-      {
-         "name": "Batmvan",
-          "releaseYear": 1800,
-          "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+      { 
+          "id":2,
+         "name": "Iron Man",
+          "releaseYear": 1963,
+          "url": "ironman.webp",
           "description":"intrepid action drama suspense The movis is one of the best",
           "page": "./batman.html"
       },
       {
-          "name": "Batmabn",
-          "releaseYear": 1800,
-          "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+        "id":3,
+         "name": "Thor",
+          "releaseYear": 1962,
+          "url": "thor.jpg",
+          "description":"intrepid action drama suspense The movis is one of the best",
+          "page": "./batman.html"
+      },
+      { 
+          "id":4,
+          "name": "Captain America",
+          "releaseYear": 1941,
+          "url": "captainamerica.webp",
           "description":"intrepid action drama suspense The movis is one of the best",
           "page": "./batman.html"
 
     }
   ],
     "villans": [
-      {
-          "name": "Joker",
-          "releaseYear": 1800,
-          "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+      { 
+          "id":1,
+          "name": "Thanos",
+          "releaseYear": 1973,
+          "url": "thanos.webp",
           "description":"intrepid action drama suspense The movis is one of the best",
           "page": "./batman.html"
       
       },
       {
-         "name": "Joker",
-          "releaseYear": 1800,
-          "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+        "id":2,
+         "name": "Norman Osborn",
+          "releaseYear": 1964,
+          "url": "Norman_Osborn.jpg",
           "description":"intrepid action drama suspense The movis is one of the best",
           "page": "./batman.html"
       },
       {
-         "name": "Joker",
+        "id":3,
+         "name": "Doctor Doom",
           "releaseYear": 1800,
-          "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+          "url": "drdoom.avif",
           "description":"intrepid action drama suspense The movis is one of the best",
           "page": "./batman.html"
       },
       {
-          "name": "Joker",
-          "releaseYear": 1800,
-          "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+          "id":4,
+          "name": "Red Skull",
+          "releaseYear": 1941,
+          "url": "4726137-02.jpg",
           "description":"intrepid action drama suspense The movis is one of the best",
           "page": "./batman.html"
       

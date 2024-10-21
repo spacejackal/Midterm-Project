@@ -1,31 +1,35 @@
 {
     "heros": [
         {
+            "id":1,
             "name": "Batman",
-            "releaseYear": 1800,
-            "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+            "releaseYear": 1939,
+            "url": "batman.webp",
             "description":"intrepid action drama suspense The movis is one of the best",
             "page": "./batman.html"
   
         },
         {
-           "name": "Batman",
-            "releaseYear": 1800,
-            "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+            "id":2,
+           "name": "Superman",
+            "releaseYear": 1938,
+            "url": "superman.webp",
             "description":"intrepid action drama suspense The movis is one of the best",
             "page": "./Main.html"
         },
         {
-           "name": "Batman",
-            "releaseYear": 1800,
-            "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+            "id":3,
+           "name": "Flash",
+            "releaseYear": 1940,
+            "url": "flash.webp",
             "description":"intrepid action drama suspense The movis is one of the best",
             "page": "./batman.html"
         },
         {
-            "name": "Batman",
-            "releaseYear": 1800,
-            "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+            "id":4,
+            "name": "Green Lantern",
+            "releaseYear": 1940,
+            "url": "greenlantern.webp",
             "description":"intrepid action drama suspense The movis is one of the best",
             "page": "./Main.html"
   
@@ -35,31 +39,35 @@
 
     "villans": [
         {
+            "id":1,
             "name": "Joker",
-            "releaseYear": 184,
-            "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+            "releaseYear": 1940,
+            "url": "joker.jpg",
             "description":"intrepid action drama suspense The movis is one of the best",
             "page": "./Main.html"
   
         },
         {
-           "name": "Joker",
-            "releaseYear": 18022,
-            "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+            "id":2,
+           "name": "Penguin",
+            "releaseYear": 1941,
+            "url": "Penguin_new_52.webp",
             "description":"intrepid action drama suspense The movis is one of the best",
             "page": "./batman.html"
         },
         {
-           "name": "Joker",
-            "releaseYear": 1803,
-            "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+            "id":3,
+           "name": "Lex Luthor",
+            "releaseYear": 1940,
+            "url": "Luthor12.webp",
             "description":"intrepid action drama suspense The movis is one of the best",
             "page": "./batman.html"
         },
         {
-            "name": "Joker",
-            "releaseYear": 1804,
-            "url": "https://freepngimg.com/thumb/avengers/5-2-avengers-png-picture.png",
+            "id":4,
+            "name": "Harley Quinn",
+            "releaseYear": 1992,
+            "url": "harleyquinn.webp",
             "description":"intrepid action drama suspense The movis is one of the best",
             "page": "./batman.html"
   

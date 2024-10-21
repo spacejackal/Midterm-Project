@@ -145,19 +145,19 @@ function loadChars(chars, n, s){
          let name = CardChar.name;
          let year = CardChar.releaseYear;
          let url = CardChar.url;
-         console.log(name);
+         console.log(char.description);
      // construct the HTML element
          let AddCardChar = document.createElement("div");
          AddCardChar.classList.add("col"); // Add Bootstrap class to the column
          AddCardChar.innerHTML = `
          <div class="card shadow-sm">
-         <img src=${char.url} class="card-img-top" alt="..."></img>
+         <img src=../images/${char.url} class="card-img-top" alt="..."></img>
          <div class="card-body">
          <p class="card-text"> <strong>${char.name}</strong>, ${char.releaseYear}</p>
          </div>
          </div>
 
-             <div class="collapse text-bg-dark" id="more${char.name}">
+             <div class="collapse text-bg-dark" id="more${char.id}">
           <div class="container">
               <p>${char.description}</p>
               <a href="./${faction}/${char.page}">Full page
@@ -168,7 +168,7 @@ function loadChars(chars, n, s){
           <div class="container">
             <a href="#" class="navbar-brand d-flex align-items-center">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#more${char.name}" aria-controls="more${char.name}" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#more${char.id}" aria-controls="more${char.id}" aria-expanded="false" aria-label="Toggle navigation">
               More
             </button>
           </div>
